@@ -7,7 +7,10 @@ header{
     background-color: white;
 }
 main{
-    background-color: white;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    background-color: lightgray;
 }
 #nav-bar{
     display: flex;
@@ -88,10 +91,40 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.section{
-    width: 50%;
+section{
+    flex: 70%;
+    background-color: white;
 }
 #user-avatar{
     width: 50px;
     height: 50px;
+}
+
+#recommended-videos{
+    flex: 20%;
+    background-color: white;
+}
+#recommended-videos h1{
+    font-size: 12px;
+}
+.thumbnail-video-container{
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+.thumbnail-video-creator{
+    font-size: 12px;
+}
+.thumbnail-video-views{
+    font-size: 12px;
+}
+
+#thumbnail-videos-controls{
+    display:flex;
+    justify-content: space-between;
+}
+#up-next{
+    width: 80%;
+}
+#autoplay{
+    width: 20%;
 }
