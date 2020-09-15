@@ -1,0 +1,33 @@
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    text-align: left;
+    width: 140px;
+    height: 80px;
+    display: flex;
+}
+#img-logo{
+    top: 1px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+}
+#search{
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+#search-input{
+    width: 70%;
+    display: inline-block;
+}
+#button-search{
+    display: inline-block
+}
+.nav-icon{
+    top:0;
+    width: 20px;
+    height: 20px;
+}
