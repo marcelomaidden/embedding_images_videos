@@ -1,6 +1,17 @@
+body{
+    padding: 10px 80px;
+    background-color: lightgray;
+}
+header{
+    background-color: white;
+}
+main{
+    background-color: white;
+}
 #nav-bar{
     display: flex;
     flex-direction: row;
+    padding: 20px;
 }
 #logo{
     text-align: left;
@@ -22,9 +33,14 @@
 #search-input{
     width: 70%;
     display: inline-block;
+    height: 30px;
+    margin: 0;
 }
 #button-search{
-    display: inline-block
+    display: inline-block;
+    background-image: url('search.png');
+    height: 30px;
+    margin: 0;
 }
 .nav-icon{
     top:0;
