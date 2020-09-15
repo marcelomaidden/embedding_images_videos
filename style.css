@@ -1,3 +1,4 @@
+/*---------General tags----------*/
 body{
     padding: 10px 80px;
     background-color: lightgray;
@@ -46,4 +47,51 @@ main{
     top:0;
     width: 20px;
     height: 20px;
+}
+/*----------Information about Video-------------*/
+.info-content{
+    display: flex;
+    flex-direction: column;
+}
+.video-button{
+    top:0;
+    width: 20px;
+    height: 20px;
+}
+#user-avatar{
+    top:0;
+    width: 20px;
+    height: 20px;
+}
+#subscribe-button{
+    top:0;
+    width: 20px;
+    height: 20px;
+}
+.user-info{
+    display: flex;
+    justify-content: space-between;
+}
+.info-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.subscribe-info p{
+    margin: 0;
+}
+.buttons-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.section{
+    width: 50%;
+}
+#user-avatar{
+    width: 50px;
+    height: 50px;
 }
