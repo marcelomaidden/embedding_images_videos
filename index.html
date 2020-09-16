@@ -8,16 +8,16 @@
 </head>
 <body>
     <header>
-        <nav id = "nav-bar">
+        <nav id = "nav-bar" class="flex">
             <div id="logo">
                 <img src = "assets/img/menu.png" id = "menu-icon" alt = "menu" class = "nav-icon" /> 
                 <img id = "img-logo" src="assets/img/logo.png" alt= "logo" />
             </div>
             <div id="search">
                 <div>
-                    <input type="text" id="search-input" placeholder="Search" 
+                    <input type="text" id="search-input" class="margin0" placeholder="Search" 
                     value = "https://www.youtube.com/watch?v=V74l_zS1x8E"/>
-                    <button id = "button-search">
+                    <button id = "button-search" class="margin0">
                         <img src="assets/img/search.png" alt="Search input" class = "nav-icon">
                     </button>
                     
@@ -31,19 +31,19 @@
         </nav>
     </header>
 
-    <main>
+    <main class="flex">
         <section>
             <iframe width="600" height="450" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="info-content">
+            <div class="flex column">
                 <h1>Contributing to Open Source Part I: The Easy Way</h1>
-                <div class="info-bar">
-                    <div class="user-info">
+                <div class="flex">
+                    <div class="flex">
                         <div>
                             <img src="assets/img/avatar.png" alt="user-icon" id="user-avatar">
                         </div>
-                        <div class="subscribe-info">
-                            <p>The Odin Project</p>
-                            <div class="subs">
+                        <div class="start column">
+                            <p class="margin0">The Odin Project</p>
+                            <div class="flex">
                                 <button id="subscribe-button"><img src="assets/img/subscribe.jpg" alt="subscribe-button" id=subscribe-image></button>
                                 <p>799</p>
                             </div>
@@ -51,7 +51,7 @@
                     </div>                    
                     <p>50,016 views</p>
                 </div>
-                <div class="buttons-bar">
+                <div class="flex">
                     <div>
                         <button id="add-button"><img src="assets/img/add.png" alt="add-button" class="video-button"></button>
                         <label for="add-button" class="button-label">Add To</label>
@@ -70,7 +70,7 @@
             </div>
         </section>
         <aside id = "recommended-videos">
-            <div id = "thumbnail-videos-controls">
+            <div class="flex">
                 <div id = "up-next">Up next</div>
                 <div id = "autoplay">Autoplay 
                     <label class="switch">

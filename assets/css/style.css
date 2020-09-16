@@ -7,14 +7,26 @@ header{
     background-color: white;
 }
 main{
-    display: flex;
     flex-wrap:nowrap;
     justify-content: space-between;
     background-color: lightgray;
 }
-#nav-bar{
+/*-------------Utilities-------*/
+.flex{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+}
+.margin0{
+    margin: 0;
+}
+#nav-bar{
     padding: 20px;
 }
 #logo{
@@ -37,66 +49,32 @@ main{
     width: 70%;
     display: inline-block;
     height: 30px;
-    margin: 0;
 }
 #button-search{
     display: inline-block;
     background-image: url('search.png');
     height: 30px;
-    margin: 0;
 }
 .nav-icon{
-    top:0;
     width: 20px;
     height: 20px;
 }
 /*----------Information about Video-------------*/
-.info-content{
-    display: flex;
-    flex-direction: column;
-}
 .video-button{
-    top:0;
     width: 20px;
     height: 20px;
 }
 #user-avatar{
-    top:0;
     width: 20px;
     height: 20px;
 }
 #subscribe-image{
-    top:0;
     width: 70px;
     height: 30px;
     border: 0;
-    margin: 0;
 }
 #subscribe-button{
     border: 0;
-}
-.user-info{
-    display: flex;
-    justify-content: space-between;
-}
-.info-bar{
-    display: flex;
-    justify-content: space-between;
-}
-.subscribe-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-.subscribe-info p{
-    margin: 0;
-}
-.subs{
-    display: flex;
-}
-.buttons-bar{
-    display: flex;
-    justify-content: space-between;
 }
 section{
     width: 68%;
@@ -123,11 +101,6 @@ section{
 }
 .thumbnail-video-views{
     font-size: 12px;
-}
-
-#thumbnail-videos-controls{
-    display:flex;
-    justify-content: space-between;
 }
 #up-next{
     width: 80%;
