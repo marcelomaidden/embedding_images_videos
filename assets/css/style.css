@@ -1,6 +1,5 @@
 /*---------General tags----------*/
 body{
-    background-color: lightgray;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -61,10 +60,10 @@ aside{
 .width30percent{
     width: 30%;
 }
-.fullborder{
-    border-style: solid;
-    border-color: gray;
-    border-width: 1px;
+.bottom-border{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .height30{
@@ -74,8 +73,13 @@ aside{
     height: 20px;
     margin-right: 10px;
 }
+
 #nav-bar{
     padding: 20px;
+}
+
+.borderRight0{
+    border-right: 0;
 }
 
 .img-logo{
@@ -86,17 +90,21 @@ aside{
 .button-search{
     background-image: url('search.png');
     border-left:0;
-    height: 35px;
+    height: 36px;
 }
 
 .nav-icon{
     width: 20px;
     height: 20px;
+    margin-right: 3px;
 }
 /*----------Information about Video-------------*/
 .video-button{
     width: 20px;
     height: 20px;
+}
+.video-button-section{
+    margin: 10px 5px;
 }
 
 .user-avatar{
@@ -104,6 +112,11 @@ aside{
     height: 50px;
 }
 
+.video-comments{
+    font-size: 14px;
+    margin: 10px 5px;
+    text-justify: distribute;
+}
 /*------------------Recommended videos-----------*/
 .thumbnail-video-container{
     margin: 10px;
