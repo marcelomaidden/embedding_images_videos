@@ -7,21 +7,20 @@
     <link rel="stylesheet" href = "assets/css/style.css" type="text/css" />
 </head>
 <body>
-    <header>
-        <nav id = "nav-bar" class="flex">
+    <header class = "backgroundWhite">
+        <nav id = "nav-bar" class="flex flex-center">
             <div id="logo">
-                <img src = "assets/img/menu.png" id = "menu-icon" alt = "menu" class = "nav-icon" /> 
+                <img src = "assets/img/menu.png" id = "menu-icon" alt = "menu" 
+                class = "nav-icon" /> 
                 <img id = "img-logo" src="assets/img/logo.png" alt= "logo" />
             </div>
-            <div id="search">
-                <div>
-                    <input type="text" id="search-input" class="margin0" placeholder="Search" 
-                    value = "https://www.youtube.com/watch?v=V74l_zS1x8E"/>
-                    <button id = "button-search" class="margin0">
-                        <img src="assets/img/search.png" alt="Search input" class = "nav-icon">
-                    </button>
-                    
-                </div>
+            <div id="search" class = "flex width80percent">
+                <input type="text" class="margin0 width70percent height30" placeholder="Search" 
+                value = "https://www.youtube.com/watch?v=V74l_zS1x8E"/>
+                <button id = "button-search" class="margin0 height30">
+                    <img src="assets/img/search.png" alt="Search input" class = "nav-icon">
+                </button>
+                
             </div>
             <div id = "icons">
                 <img src="assets/img/upload.png" alt="upload image" id="upload-icon" class="nav-icon"/>
@@ -32,19 +31,21 @@
     </header>
 
     <main class="flex">
-        <section>
+        <section class = "backgroundWhite width70percent">
             <iframe width="600" height="450" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="flex column">
                 <h1>Contributing to Open Source Part I: The Easy Way</h1>
                 <div class="flex">
                     <div class="flex">
                         <div>
-                            <img src="assets/img/avatar.png" alt="user-icon" id="user-avatar">
+                            <img src="assets/img/avatar.png" alt="user-icon" class = "user-avatar" />
                         </div>
                         <div class="start column">
                             <p class="margin0">The Odin Project</p>
                             <div class="flex">
-                                <button id="subscribe-button"><img src="assets/img/subscribe.jpg" alt="subscribe-button" id=subscribe-image></button>
+                                <button class = "border0">
+                                    <img src="assets/img/subscribe.jpg" alt="subscribe-button" class = "border0 height30">
+                                </button>
                                 <p>799</p>
                             </div>
                         </div>
@@ -53,26 +54,26 @@
                 </div>
                 <div class="flex">
                     <div>
-                        <button id="add-button"><img src="assets/img/add.png" alt="add-button" class="video-button"></button>
+                        <button id="add-button"><img src="assets/img/add.png" alt="add-button" class="nav-icon"></button>
                         <label for="add-button" class="button-label">Add To</label>
-                        <button id="share-button"><img src="assets/img/share.png" alt="share-button" class="video-button"></button>
+                        <button id="share-button"><img src="assets/img/share.png" alt="share-button" class="nav-icon"></button>
                         <label for="share-button" class="button-label">Share</label>
-                        <button id="more-button"><img src="assets/img/more.jpg" alt="more-button" class="video-button"></button>
+                        <button id="more-button"><img src="assets/img/more.jpg" alt="more-button" class="nav-icon"></button>
                         <label for="more-button" class="button-label">More</label>
                     </div>
                     <div>
-                        <button id="like-button"><img src="assets/img/like.png" alt="like-button" class="video-button"></button>
+                        <button id="like-button"><img src="assets/img/like.png" alt="like-button" class="nav-icon"></button>
                         <label for="like-button" class="button-label">359</label>
-                        <button id="dislike-button"><img src="assets/img/dislike.png" alt="dislike-button" class="video-button"></button>
+                        <button id="dislike-button"><img src="assets/img/dislike.png" alt="dislike-button" class="nav-icon"></button>
                         <label for="dislike-button" class="button-label">14</label>
                     </div>
                 </div>
             </div>
         </section>
-        <aside id = "recommended-videos">
+        <aside class = "width30percent backgroundWhite">
             <div class="flex">
-                <div id = "up-next">Up next</div>
-                <div id = "autoplay">Autoplay 
+                <div class = "width80percent">Up next</div>
+                <div>Autoplay 
                     <label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
@@ -85,11 +86,11 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen></iframe>  
                 <div class = "thumbnail-video-info">
-                    <h1>Contributing to open source</h1>
-                    <div class = "thumbnail-video-creator">
+                    <h1 class = "font12">Contributing to open source</h1>
+                    <div class = "font12">
                         The Odin Project
                     </div>
-                    <div class = "thumbnail-video-views">
+                    <div class = "font12">
                         2,000 views
                     </div>
                 </div>   
