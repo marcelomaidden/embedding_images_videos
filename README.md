@@ -4,21 +4,30 @@
 
 > Collaborative project course html and css course Marcelo and Julián
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/img/app_screenshot.png)
 
-First project main curriculum
+Embedding Images and Video - Youtube page clone
 
 ## Built With
 
 - HTML and CSS
 
+## Live Demo
+
+- https://rawcdn.githack.com/marcelomaidden/embedding_images_videos/24256a8109363b0818afe6b358872816c0e21b76/index.html
+
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+Clone the project repository by typing the command below
+
+- git clone https://github.com/marcelomaidden/embedding_images_videos.git
+
+After that enter on the directory of the cloned repository
+- cd embedding_images_videos
+
+To see how it looks like open the index.html file on your browser
 
 ## Authors
 
@@ -46,9 +55,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+We thank all the sites below where we have found lots of meaningful content
+
+- Youtube
+- W3Schools
 
 ## 📝 License
 
