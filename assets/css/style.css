@@ -46,22 +46,23 @@ main{
 .height30{
     height: 30px;
 }
+.menu-icon{
+    height: 20px;
+    margin-right: 10px;
+}
 #nav-bar{
     padding: 20px;
 }
-#logo{
-    text-align: left;
-    width: 140px;
-    height: 80px;
-    display: flex;
-}
-#img-logo{
+
+.img-logo{
     top: 1px;
-    height: 50px;
+    height: 30px;
 }
 
-#button-search{
+.button-search{
     background-image: url('search.png');
+    border-left:0;
+    height: 35px;
 }
 
 .nav-icon{
