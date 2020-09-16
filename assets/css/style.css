@@ -1,12 +1,27 @@
 /*---------General tags----------*/
 body{
     background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
 }
 
 main{
     background-color: lightgray;
+    max-width: 1400px;
+    margin: auto;
 }
 /*-------------Utilities-------*/
+.f-size{
+    font-size: 30px;
+}
+.f-w100{
+    font-weight: 100;
+}
+.f-w300{
+    font-weight: 300;
+}
+.f-w700{
+    font-weight: 700;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -41,6 +56,11 @@ main{
 }
 .width30percent{
     width: 30%;
+}
+.fullborder{
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
 }
 
 .height30{
