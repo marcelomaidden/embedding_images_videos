@@ -12,6 +12,9 @@ main{
 aside{
     padding: 10px;
 }
+footer{
+    margin-top: 40px;
+}
 /*-------------Utilities-------*/
 .f-size{
     font-size: 30px;
@@ -67,7 +70,7 @@ aside{
 .bottom-border{
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .height30{
@@ -102,6 +105,17 @@ aside{
     height: 20px;
     margin-right: 3px;
 }
+.footer-item{
+    margin-right: 30px;
+    text-decoration: none;
+}
+.gray{
+    color: gray;
+}
+.black{
+    color: black;
+}
+
 /*----------Information about Video-------------*/
 .main-video{
     width:100%; 
@@ -208,4 +222,10 @@ input:checked + .slider:before {
   
 .slider.round:before {
     border-radius: 50%;
+}
+/*-----------Footer-----------*/
+.footer-button {
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 16px;
 }
