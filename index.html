@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding images and videos - Microverse</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "assets/css/style.css" type="text/css" />
+</head>
+<body>
+    <!--Nav Bar-->
+    <header class = "backgroundWhite">
+        <nav id = "nav-bar" class="flex flex-center">
+            <div class = "flex flex-center">
+                <img src = "assets/img/menu.png" alt = "menu" class = "menu-icon" /> 
+                <img class = "img-logo" src="assets/img/logo.png" alt= "logo" />
+            </div>
+            <div id="search" class = "center width80percent">
+                <input type="text" class="margin0 width70percent height30 borderRight0" placeholder="Search" />
+                <button class="button-search margin0 backgroundWhite">
+                    <img src="assets/img/search.png" alt="Search input" class = "nav-icon">
+                </button>
+            </div>
+            <div class = "flex">
+                <img src="assets/img/upload.png" alt="upload image" id="upload-icon" class="nav-icon"/>
+                <img src="assets/img/avatar.png" alt="avatar image" id="avatar-icon" class="nav-icon"/>
+                <img src="assets/img/logout.png" alt="logout image" id="logout-icon" class="nav-icon"/>
+            </div>
+        </nav>
+    </header>
+    <main class="flex">
+    <!--Main Video Section-->
+        <section class = "backgroundWhite width70percent">
+            <iframe class = "main-video"
+            src="https://www.youtube.com/embed/V74l_zS1x8E" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="flex column">
+                <h1 class="f-w700">Contributing to Open Source Part I: The Easy Way</h1>
+                <div class="flex bottom-border">
+                    <div class="flex">
+                        <div>
+                            <img src="assets/img/avatar.png" alt="user-icon" class = "user-avatar" />
+                        </div>
+                        <div class="flex column">
+                            <p class="margin0 f-w300">The Odin Project</p>
+                            <div class="flex flex-center">
+                                <button class = "border0 subscribe">
+                                    <i class="fa fa-youtube-square"></i>
+                                    Subscribe
+                                </button>
+                                <p class="margin0">799</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-center">
+                        <p class="f-size margin0">50,016</p>
+                        <p class="margin0">Views</p>
+                    </div>                   
+                </div>
+                <!--Video buttons section-->
+                <div class="flex video-button-section">
+                    <div>
+                        <button id="add-button"><img src="assets/img/add.png" alt="add-button" class="nav-icon"></button>
+                        <label for="add-button" class="button-label">Add To</label>
+                        <button id="share-button"><img src="assets/img/share.png" alt="share-button" class="nav-icon"></button>
+                        <label for="share-button" class="button-label">Share</label>
+                        <button id="more-button"><img src="assets/img/more.jpg" alt="more-button" class="nav-icon"></button>
+                        <label for="more-button" class="button-label">More</label>
+                    </div>
+                    <div>
+                        <button id="like-button"><img src="assets/img/like.png" alt="like-button" class="nav-icon"></button>
+                        <label for="like-button" class="button-label">359</label>
+                        <button id="dislike-button"><img src="assets/img/dislike.png" alt="dislike-button" class="nav-icon"></button>
+                        <label for="dislike-button" class="button-label">14</label>
+                    </div>
+                </div>
+            </div>
+            <!--Video Comments section-->
+            <div class = "flex column video-comments">
+                <div class = "f-w700">Published on Feb 27, 2014</div>
+                <div>
+                    How do you contribute to open source? In this video, 
+                    I'll describe the easiest way to make a simple contribution to an open source project -- 
+                    without using the command line, a text editor, "forking a repo", or even touching 
+                    Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. 
+                    You can find more information about that project at http://theodinproject.com.
+                </div>
+            </div>
+        </section>
+        <!--Recomended Videos Section-->
+        <aside class = "width30percent backgroundWhite">
+            <div class="flex">
+                <div class = "f-w700 up-next">Up next</div>
+                <div class = "flex f-w100">Autoplay 
+                    <div>
+                        <img src = "assets/img/info.png" class = "nav-icon" alt = "more info" />
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class = "flex start bottom-border">
+                <iframe class = "thumbnail-video-size"
+                src="https://www.youtube.com/embed/mENDYhfxH-o" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>  
+                <div class = "thumbnail-video-info">
+                    <h1 class = "font12">Contributing to open source</h1>
+                    <div class = "font12">
+                        The Odin Project
+                    </div>
+                    <div class = "font12">
+                        2,000 views
+                    </div>
+                </div>   
+            </div>            
+            <div class = "flex start bottom-border">
+                <iframe class = "thumbnail-video-size"
+                src="https://www.youtube.com/embed/YJZCUhxNCv8" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>     
+                <div class = "thumbnail-video-info">
+                    <h1 class = "font12">How to get a job</h1>
+                    <div class = "font12">
+                        imtiana
+                    </div>
+                    <div class = "font12">
+                        981,543 views
+                    </div>
+                </div>   
+            </div>
+            <div class = "flex start bottom-border">
+                <iframe class = "thumbnail-video-size"
+                src="https://www.youtube.com/embed/mENDYhfxH-o" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>  
+                <div class = "thumbnail-video-info">
+                    <h1 class = "font12">Contributing to open source</h1>
+                    <div class = "font12">
+                        The Odin Project
+                    </div>
+                    <div class = "font12">
+                        2,000 views
+                    </div>
+                </div>   
+            </div>            
+            <div class = "flex start bottom-border">
+                <iframe class = "thumbnail-video-size"
+                src="https://www.youtube.com/embed/YJZCUhxNCv8" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>     
+                <div class = "thumbnail-video-info">
+                    <h1 class = "font12">How to get a job</h1>
+                    <div class = "font12">
+                        imtiana
+                    </div>
+                    <div class = "font12">
+                        981,543 views
+                    </div>
+                </div>   
+            </div>            
+        </aside>
+    </main>
+    <footer class="flex column">
+        <div class="flex start bottom-border">
+            <img class = "img-logo footer-item" src="assets/img/logo.png" alt= "logo" />
+            <select name="language" id="Language" class="footer-item">
+                <option value="English">Language: English</option>
+                <option value="Spanish">Language: Spanish</option>
+                <option value="Portuguese">Language: Portuguese</option>
+            </select>
+            <select name="location" id="Location" class="footer-item">
+                <option value="Brazil">Locacion: Brazil</option>
+                <option value="Colombia">Locacion: Colombia</option>
+                <option value="Usa">Locacion: USA</option>
+            </select>
+            <select name="restricted" id="Restricted-mode" class="footer-item">
+                <option value="On">Restricted mode: On</option>
+                <option value="Off" selected>Restricted mode: Off</option>
+            </select>
+            <button class="footer-item footer-button"><i class="fa fa-hourglass-half" aria-hidden="true"></i>
+                History</button>
+            <button class="footer-item footer-button"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                Help</button>
+        </div>
+        <div class="flex column bott">
+            <div class="flex start bottom-border">
+                <a class="footer-item f-w700 black" href="#">About</a>
+                <a class="footer-item f-w700 black" href="#">Press</a>
+                <a class="footer-item f-w700 black" href="#">Copyright</a>
+                <a class="footer-item f-w700 black" href="#">Creators</a>
+                <a class="footer-item f-w700 black" href="#">Advertise</a>
+                <a class="footer-item f-w700 black" href="#">Developers</a>
+            </div>
+            <div class="flex start">
+                <a class="footer-item gray" href="#">Terms</a>
+                <a class="footer-item gray" href="#">Privacy</a>
+                <a class="footer-item gray" href="#">Policy & Safety</a>
+                <a class="footer-item gray" href="#">Test new features</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

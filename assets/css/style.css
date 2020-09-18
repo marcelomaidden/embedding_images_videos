@@ -1,0 +1,231 @@
+/*---------General tags----------*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: lightgray;
+    max-width: 1400px;
+    margin: auto;
+}
+
+aside{
+    padding: 10px;
+}
+footer{
+    margin-top: 40px;
+}
+/*-------------Utilities-------*/
+.f-size{
+    font-size: 30px;
+}
+.f-w100{
+    font-weight: 100;
+}
+.f-w300{
+    font-weight: 300;
+}
+.f-w700{
+    font-weight: 700;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-center{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.margin0{
+    margin: 0;
+}
+.border0{
+    border: 0;
+}
+.backgroundWhite{
+    background-color: white;
+}
+.font12{
+    font-size: 12px;
+}
+.width80percent{
+    width: 80%;
+}
+.width70percent{
+    width: 70%;
+}
+.width30percent{
+    width: 30%;
+}
+.bottom-border{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.height30{
+    height: 30px;
+}
+.menu-icon{
+    height: 20px;
+    margin-right: 10px;
+}
+
+#nav-bar{
+    padding: 20px;
+}
+
+.borderRight0{
+    border-right: 0;
+}
+
+.img-logo{
+    top: 1px;
+    height: 30px;
+}
+
+.button-search{
+    background-image: url('search.png');
+    border-left:0;
+    height: 36px;
+}
+
+.nav-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+.footer-item{
+    margin-right: 30px;
+    text-decoration: none;
+}
+.gray{
+    color: gray;
+}
+.black{
+    color: black;
+}
+
+/*----------Information about Video-------------*/
+.main-video{
+    width:100%; 
+    height:450px;
+}
+.video-button{
+    width: 20px;
+    height: 20px;
+}
+
+.video-button-section{
+    margin: 10px 5px;
+}
+
+.user-avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.subscribe {
+    background-color: red;
+    /*border: none;  Remove borders */
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.video-comments{
+    font-size: 14px;
+    margin: 10px 5px;
+    text-justify: distribute;
+}
+/*------------------Recommended videos-----------*/
+.thumbnail-video-container{
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+.thumbnail-video-size{
+    width: 168px;
+    height: 94px
+}
+
+.up-next{
+    width: 60%
+}
+
+/* Rounded sliders */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 37px;
+    height: 17px;
+  }
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(16px);
+}
+
+.slider.round {
+    border-radius: 34px;
+  }
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+/*-----------Footer-----------*/
+.footer-button {
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+}
